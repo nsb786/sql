@@ -1,1 +1,20 @@
-hello welcome sql
+Usefull Sql query and function
+
+SQL Function
+------------
+
+1. Length
+   Ex. Length('nizam');    Output= 5
+
+2. Trim
+   Ex. Trim(' remove start space or tab and end space or tab. ')
+   Output =remove start space or tab and endspace or tab.|
+
+3. Concat
+   Ex. Concat('nizam','badhara') O=nizambadhara
+
+4. Upper
+   Ex. Upper('nizam').    O=UPPER
+   
+5. Lower
+   Ex. Lower('Nizam').    O=nizam
