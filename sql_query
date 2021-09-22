@@ -18,3 +18,23 @@ SQL Function
    
 5. Lower
    Ex. Lower('Nizam').    O=nizam
+   
+6. initcap
+   Ex. initcap('hello nizam')   O=Hello Nizam
+   
+7. Abs
+   Ex. Abs(-22) O=22 Ex2. Abs(22) O=22
+   
+8. round
+   Ex. round(5.4)  O=5   Ex2. round(5.5)  O=6    Ex3. round(5.6)   O=6
+   
+9. current_date/sysdate
+   Ex. select current_date from dual;   O=22-SEP-21
+   
+10. EXTRACT
+    day : select EXTRACT (day from current_date) from dual;    O=22
+    month : select EXTRACT (month from current_date) from dual;  O=9
+    year : select EXTRACT (year from current_date) from dual;   O=2021
+
+
+
